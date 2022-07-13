@@ -16,3 +16,4 @@ rootProject.name = "Kotlin_App"
 include ':app'
 include ':exercise2-7'
 include ':practice2-3'
+include ':practice4-2'
