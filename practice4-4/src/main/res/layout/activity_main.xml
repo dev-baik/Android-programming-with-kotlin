@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="선택을 시작하겠습니까?"/>
+
+    <Switch
+        android:id="@+id/chkAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작함  "/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="좋아하는 안드로이드 버전은?"
+        android:visibility="invisible"/>
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/rdoOreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오레오(8.0)"/>
+
+        <RadioButton
+            android:id="@+id/rdoPie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파이(8.0)"/>
+
+        <RadioButton
+            android:id="@+id/rdoQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q(8.0)"/>
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oreo"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="종료"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="처음으로"
+        android:visibility="invisible"/>
+
+</LinearLayout>
