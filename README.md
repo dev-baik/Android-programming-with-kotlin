@@ -13,3 +13,5 @@
 - [ practice4-3 ] onTouchListener와 onClickListener 구현 차이 : https://superfelix.tistory.com/42
 - [ practice4-4 ] setOnCheckedChangeListener
 - trim(), setOnKeyListener
+
+5. 레이아웃 익히기
