@@ -15,3 +15,9 @@
 - trim(), setOnKeyListener
 
 5. 레이아웃 익히기
+
+6. 고급 위젯 다루기
+- [ practice6-1 ] Chronometer, TimePicker, DatePicker
+- [ practice6-2 ] ViewFlipper
+- [ practice6-3 ] TabHost, TabWidget
+- [ exercise6-6 ] SlidingDrawer
