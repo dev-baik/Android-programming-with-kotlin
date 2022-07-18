@@ -25,3 +25,9 @@
 ### 7. 메뉴와 대화상자
 - [ practice7-1 ] XML을 이용한 옵션 메뉴
 - [ practice7-3, exercise7-6 ] custom dialog, toast
+
+### 8. 파일 처리
+- [ practice8-1 ] openFileOutput, openFileInput
+- [ practice8-2 ] SD 카드에서 파일 읽기
+
+### 9. 그래픽과 이미지
