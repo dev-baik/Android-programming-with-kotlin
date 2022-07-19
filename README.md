@@ -31,3 +31,7 @@
 - [ practice8-2 ] SD 카드에서 파일 읽기
 
 ### 9. 그래픽과 이미지
+
+### 10. 액티비티와 인텐트
+- [ practice10-2 → exercise10-6 ] 선택정렬, ViewFlipper
+- [ parctice10-3 ] onActivityResult
