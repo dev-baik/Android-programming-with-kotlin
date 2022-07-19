@@ -1,11 +1,10 @@
 package com.example.practice10_2
 
-import android.app.Application
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.practice10_2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -34,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             btnResult.setOnClickListener {
-                var intent = Intent(applicationContext, ResultActivity::class.java)
+                var intent = Intent(applicationContext, ExerciseActivity::class.java)
                 intent.putExtra("VoteCount", voteCount)
                 intent.putExtra("ImageName", imgName)
                 startActivity(intent)

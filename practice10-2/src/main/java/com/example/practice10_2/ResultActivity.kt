@@ -1,5 +1,6 @@
 package com.example.practice10_2
 
+import android.icu.lang.UCharacter.GraphemeClusterBreak.V
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.practice10_2.databinding.ActivityResultBinding
