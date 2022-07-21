@@ -41,3 +41,10 @@
 - [ practice11-2 ] Gallery
 - [ practice11-3 ] spinner
 
+### 12. 데이터 저장과 관리
+- [ practice12-2 ] SQLiteOpenHelper
+
+### 13. 멀티미디어와 구글 지도
+- [ practice13-1 ] ListView, MediaPlayer
+- [ practice13-2 ] SeekBar
+- [ practice13-3  → exercise13-7 ] GoogleMap
