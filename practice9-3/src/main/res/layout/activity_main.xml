@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/iconLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/zoomin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="줌인"/>
+
+        <Button
+            android:id="@+id/zoomout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="줌아웃"/>
+
+        <Button
+            android:id="@+id/zoomrotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회전"/>
+
+        <Button
+            android:id="@+id/zoombright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="밝게" />
+
+        <Button
+            android:id="@+id/zoomdark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어둡게"/>
+
+        <Button
+            android:id="@+id/zoomgray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="그레이"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pictureLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"/>
+
+</LinearLayout>
