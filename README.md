@@ -48,3 +48,6 @@
 - [ practice13-1 ] ListView, MediaPlayer
 - [ practice13-2 ] SeekBar
 - [ practice13-3  → exercise13-7 ] GoogleMap
+
+### 14. 서비스와 브로드캐스트 리시버
+- [ practice14-1 → exercise14-4 ] android.app.Service()
