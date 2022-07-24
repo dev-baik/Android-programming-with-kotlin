@@ -1,4 +1,4 @@
-# Android-programming-with-kotlin
+# 코틀린을 활용한 안드로이드 프로그래밍
 [ Notion ] https://jin-ju.notion.site/f84021132b584938ba3c8d8b5fe92d8e
 
 ## Chapter
